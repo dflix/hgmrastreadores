@@ -1,0 +1,8 @@
+*{ margin: 0px; padding: 0px;}
+body{ font-family: Tahoma ,Arial ; font-size: 1.2em; color: #00254A;}
+label{ font-family: Tahoma ,Arial ; font-size: 1.2em; color: #00254A;}
+.formlogin{ width: 400px; height: auto; padding: 20px; margin: 0 auto; border-radius:10px; background: #ccc; margin-top: 5%;}
+input{ width: 95%; padding: 10px; border-radius:10px;}
+.logologin{ width: 175px; margin: 0 auto;}
+.botao{ width: 150px; height: auto; padding: 10px; border-radius:10px; background: #006699; color: #fff;}
+.imglogin{ width: 165px; height: 165px; margin: 0 auto;}

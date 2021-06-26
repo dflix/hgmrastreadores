@@ -1,0 +1,97 @@
+*{ margin: 0px; padding: 0px;}
+body{ font-family: Tahoma, Arial; font-size: 1.0em;}
+h3,h2,h1{ width: 100%; padding: 10px; font-size: 1.2em; background: #989898; color: #fff;}
+
+.fonte{ font-size: 0.7em;}
+
+.altura{ height: 300px;}
+
+.contratoh1{ font-size: 1.4em; color: #fff; width: 100%; padding: 5px; background:#555; margin-bottom: 5px;}
+.logo{ width: 150px; height: auto; margin: 0 auto;}
+.logoadesao{ width: 500px; height: auto; margin: 0 auto; float:left;}
+.cabecalho{ width: 100%; height: auto;}
+.sessao{ width: 50%; margin: 0 auto; text-align: center;}
+.menu{ width: 100%; height: 50px; background: #DDDDDD;}
+.buscar{ width: 100%; height: auto; background: #CCC; margin-top: -20px;}
+.buscar h1{ font-family: Tahoma,Arial; font-size: 1.4em; text-align: center;}
+.seletor{ width: 15%; float: left; height: auto; margin-left: 20%;}
+.buscando{ width: 60%; float: left; height: auto; margin-left: 2%;}
+.buscando input{ width: 80%; border-radius:10px; padding: 10px;}
+.clear{ width: 100%; height: 1px; clear: both;}
+.botao{ width: 150px; padding: 10px; border-radius:10px; background:#006699; color: #fff;}
+.botao2{ width: 75px; padding: 10px; border-radius:10px; background:#690; color: #fff;}
+.arruma{ text-decoration: none; color:#fff;}
+input,select,textarea{ width: 100%; padding: 10px; border-radius:10px; border: 2px solid #CCC;}
+.cadastro{ width: 100%; padding: 10px; background:#008000; color:#fff; font-size: 1.5em;}
+.deletar{ width: 100%; padding: 10px; background:#DD4A68; color:#fff; font-size: 1.5em;}
+.emanalise{ font-size: 1.0em; color: #09f;}
+.agendado{font-size: 1.0em; color:#093;}
+.instalado{font-size:1.0em; color: #069;}
+.cancelado{ font-size: 1.0em; color: #DD4A68;}
+.padding{ padding: 5px;}
+
+.navega{ display: block; width: 90%; height: 40px; background:#006699; margin: 0 auto;}
+
+.navega ul li{ width: 20%; height: 30px; background:#989898; color: #fff; float: left;}
+
+.destaque{ width: 100%; padding: 10px; background: #006699; font-size: 1.5em; color: #fff; text-align: center;}
+
+.dez{ width: 10%; float: left; }
+.quinze{ width: 15%; float: left; }
+.vinte{ width: 20%; float: left;}
+.vinteecinco{ width: 25%; float: left;}
+.trinta{ width: 30%; float: left;}
+.trintaetres{ width: 33%; float: left;}
+.quarenta{ width: 40%; float: left;}
+.cinquenta{ width: 50%; float: left;}
+.setenta{ width: 70%; float: left;}
+.setentaecinco{ width: 75%; float: left;}
+.oitenta{ width: 80%; float: left;}
+.cem{ width: 100%; float: left;}
+.assinatura{ width: 45%; height: 60px; margin-left: 5%; border-bottom: 2px solid #000; float: left; }
+.assinatura2{ width: 45%; height: 100px; margin-left: 5%; border-bottom: 2px solid #000; float: left; }
+.dadosassinatura{ width: 44%; height: 25px; margin-left: 5%; float: left; }
+
+.background{ background:#989898; color:#fff;}
+.backgroundr{ background:#c7254e; color:#fff;}
+.backgroundg{ background:#093; color:#fff;}
+.vermelho{ background:#c7254e; color:#fff;}
+.verde{ background:#093; color:#fff;}
+.branquinho{ color: #fff;}
+
+
+
+.paginator{padding: 10px; background: #fff; text-align: center}
+.paginator li{display: inline;}
+.paginator a, .paginator span{margin: 0 5px; padding: 3px 8px; font-size: 14px; color: #333; font-weight: 600}
+.paginator a:hover{background: #09f; color: #fff;}
+.paginator .active{background: #333; color: #fff;}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+}
+td, th {
+    border-top: 1px solid #ddd;
+    padding: 4px 8px;
+}
+/* Algumas linhas listradas para ficar legal ;) */
+tbody tr:nth-child(even) td {
+    background-color: #eee;
+}
+
+@media screen and (max-width: 640px) {
+    .buscar,.buscando,.dez,.vinte, .vinteecinco, .trinta, .trintaetres, .quarenta, .cinquenta, .setenta, .setentaecinco, .cem{ width: 100%; height: auto; float: none;}
+    table {width:100%;}
+    
+thead {display: none;}
+tr td:first-child {font-weight:bold;font-size:0.8em;}
+tbody td {display: block;  text-align:center; padding: 5px;}
+tbody td:before { 
+    content: attr(data-th); 
+    display: block;
+    text-align:center;  
+  }
+}
+
